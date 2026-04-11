@@ -1,0 +1,41 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--header-height);
+  padding: 0 16px;
+  padding-top: env(safe-area-inset-top, 0px);
+  background-color: var(--color-white);
+  border-bottom: 1px solid var(--color-light-gray);
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-black);
+  letter-spacing: -0.3px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.iconBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  color: var(--color-black);
+  transition: background-color 0.2s;
+}
+
+.iconBtn:active {
+  background-color: var(--color-light-gray);
+}

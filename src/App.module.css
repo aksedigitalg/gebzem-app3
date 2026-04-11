@@ -1,0 +1,17 @@
+.app {
+  min-height: 100vh;
+  max-width: 480px;
+  margin: 0 auto;
+  background-color: var(--color-white);
+}
+
+.main {
+  padding-top: 4px;
+}
+
+@media (min-width: 768px) {
+  .app {
+    max-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+  }
+}
