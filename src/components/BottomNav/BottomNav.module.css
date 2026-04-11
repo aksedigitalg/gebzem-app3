@@ -5,10 +5,9 @@
   right: 0;
   z-index: 100;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   justify-content: space-around;
-  height: var(--bottom-nav-height);
-  padding-bottom: env(safe-area-inset-bottom, 0px);
+  padding: 10px 0 calc(10px + env(safe-area-inset-bottom, 0px));
   background-color: var(--color-white);
   border-top: 1px solid var(--color-light-gray);
 }
@@ -18,9 +17,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3px;
+  gap: 4px;
   flex: 1;
-  padding: 8px 0;
+  padding: 6px 0;
   color: var(--color-mid-gray);
   transition: color 0.2s;
 }
