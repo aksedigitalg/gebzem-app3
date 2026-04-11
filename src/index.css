@@ -19,6 +19,8 @@
 
 html {
   -webkit-text-size-adjust: 100%;
+  background-color: var(--color-white);
+  overscroll-behavior: none;
 }
 
 body {
@@ -30,6 +32,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   padding-bottom: calc(var(--bottom-nav-height) + env(safe-area-inset-bottom, 0px));
   overflow-x: hidden;
+  overscroll-behavior: none;
 }
 
 a {
