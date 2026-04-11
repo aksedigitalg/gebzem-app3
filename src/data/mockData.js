@@ -79,3 +79,24 @@ export const events = [
     time: '07:00',
   },
 ]
+
+export const pharmacies = [
+  {
+    id: 1,
+    name: 'Hayat Eczanesi',
+    address: 'Cumhuriyet Mah. Atatürk Cad. No:12',
+    hours: '08:00 - 08:00',
+  },
+  {
+    id: 2,
+    name: 'Merkez Eczanesi',
+    address: 'İstasyon Mah. İnönü Sok. No:5',
+    hours: '08:00 - 08:00',
+  },
+  {
+    id: 3,
+    name: 'Şifa Eczanesi',
+    address: 'Yeni Mah. Hastane Cad. No:22',
+    hours: '08:00 - 08:00',
+  },
+]
