@@ -6,10 +6,9 @@
   display: flex;
   align-items: center;
   gap: 14px;
-  width: 100%;
-  padding: 12px 16px;
+  padding: 6px 15px 6px 6px;
   border: 2px solid var(--color-light-gray);
-  border-radius: 16px;
+  border-radius: 9999px;
   background-color: var(--color-white);
 }
 

@@ -1,8 +1,6 @@
 import Header from './components/Header/Header'
 import SearchBar from './components/SearchBar/SearchBar'
 import QuickAccess from './components/QuickAccess/QuickAccess'
-import NewsSection from './components/NewsSection/NewsSection'
-import EventsSection from './components/EventsSection/EventsSection'
 import PharmacyButton from './components/PharmacyButton/PharmacyButton'
 import BottomNav from './components/BottomNav/BottomNav'
 import styles from './App.module.css'
@@ -14,8 +12,6 @@ function App() {
       <main className={styles.main}>
         <SearchBar />
         <QuickAccess />
-        <NewsSection />
-        <EventsSection />
         <PharmacyButton />
       </main>
       <BottomNav />
