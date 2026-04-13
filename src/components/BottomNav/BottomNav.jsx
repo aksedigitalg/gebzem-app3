@@ -25,7 +25,7 @@ function BottomNav() {
             onClick={() => setActive(tab.id)}
             aria-label={tab.label}
           >
-            <Icon size={22} strokeWidth={isActive ? 2 : 1.5} />
+            <Icon size={22} strokeWidth={1.5} />
             <span className={styles.label}>{tab.label}</span>
           </button>
         )

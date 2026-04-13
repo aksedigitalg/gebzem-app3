@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: flex-end;
   height: var(--header-height);
-  padding: 0 16px;
   padding-top: env(safe-area-inset-top, 0px);
   background-color: var(--color-white);
   border-bottom: none;
