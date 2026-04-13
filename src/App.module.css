@@ -1,5 +1,7 @@
 .app {
-  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
   max-width: 480px;
   margin: 0 auto;
   padding: 0 20px;
@@ -7,12 +9,7 @@
 }
 
 .main {
+  flex: 1;
+  overflow-y: auto;
   padding-top: 4px;
-}
-
-@media (min-width: 768px) {
-  .app {
-    max-width: 600px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
-  }
 }

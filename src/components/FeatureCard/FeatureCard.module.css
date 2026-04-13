@@ -1,0 +1,40 @@
+.card {
+  width: 100%;
+  height: 400px;
+  margin-bottom: 20px;
+  padding: 25px;
+  border-radius: 20px;
+  background-color: var(--color-light-gray);
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+}
+
+.circles {
+  display: flex;
+  align-items: center;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--color-white);
+  background-color: #E5E5E5;
+}
+
+.circle + .circle {
+  margin-left: -10px;
+}
+
+.arrowBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
